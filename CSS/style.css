@@ -1,19 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Fira+Sans&family=Roboto:wght@100;400&family=Source+Code+Pro&display=swap');
+
+*{
     padding: 0px;
     margin: 0px;
 }
 
 .sidebar {
-    background-color: red;
-    width: 15vw;
-    
+    background-color: rgb(237, 225, 225); 
+    width: 400px;
+    height:100vh;
+
     font-family: 'Roboto', sans-serif;
 }
 
 .main {
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 85vw;
 }
 
@@ -23,6 +26,7 @@
 
 .sidebar nav {
     padding: 50px;
+    
 }
 
 .sidebar nav li {
@@ -30,12 +34,71 @@
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
+   
 }
-.infocontainer{
-    background-color:skyblue;
-    height: 73vh;
-    width:75vw;
-    margin:130px auto;
+.sidebar li a{
+    text-decoration: none;
+    color:black
+}
+.infocontainer {
+    /* background-color: skyblue; */
+    height: 50vh;
+    width: 75vw;
+    margin: 100px auto;
     display: flex;
+    justify-content: space-around;
 
+
+}
+
+.milaninfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Croissant One', cursive;
+}
+
+.hello {
+    font-size: 40px;
+}
+
+.name {
+    font-size: 35px;
+    color: blueviolet;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 30px;
+
+}
+.moreabout{
+    margin-top:10px;
+    font-size:18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.button{
+    margin-top:20px;
+}
+.button button{
+    margin-right:5px;
+    padding:5px;
+    border-radius: 22px;
+    font-size:15px;
+    color:white;
+    background-color: rgb(60, 183, 224);
+    cursor: pointer;
+}
+.button button:hover{
+    background-color:white;
+    color:rgb(60, 183, 224);
+    text-decoration: 1.5px white underline;
+}
+
+.milanpic img {
+    width: 350px;
+    height:50vh
 }
