@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
 
 </head>
 <body>
@@ -22,24 +22,28 @@
             </nav>
         </div>
         <div class="main">
-            <div class="infocontainer">
-                <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+          <div class="query">
+            If you want to hire me, fill yours and project details
+          </div>
+            <div class="form">
+              <form >
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter your name">
+                <label for="phone">Contact Number</label>
+                <input type="tel" placeholder="Enter your contact number">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="enter your valid email address">
+                <label for="message">Project Details</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit">Submit</button>
+   
+               </form>
+            </div>
+            <div class="thank">
+              We're thankful you graced us with your presence!
+            </div>
         </div>
     </div>
+    
 </body>
 </html>
