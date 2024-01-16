@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;            
+        }
+
+        .section_pic-container {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 150px; /* Adjust the size as needed */
+            height: 150px; /* Adjust the size as needed */
+            margin-right: 20px;
+        }
+
+        .section_pic-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top; /* Show the top area of the image */
+        }
+
+        .milaninfo {
+            text-align: left;
+            align-self: flex-start;
+        }
+
+        .name {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .about, .moreabout {
+            margin-bottom: 10px;
+        }
+
+        .button_cv, .button_contact {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="../Gallery/milan_profile.png" alt="Milan picture">
+        </div>
+        <div class="milaninfo">
+            <div class="hello">Hi, I am</div>
+            <div class="name">Milan Dangi</div>
+            <div class="about">Developer, Entrepreneur, and Data Analyst</div>
+            <div class="moreabout">
+                I'm currently on a journey to become a data science expert, focusing on machine learning and data visualization.
+                My ultimate goal is to apply computer vision in the agriculture sector to enhance production and market management in my country.
+                I'm passionate about working at the intersection of technology and agriculture to drive positive change!
+            </div>
+            <button class="button_cv" onclick="window.open('your_cv_link')">Download CV</button>
+            <button class="button_contact" onclick="window.open('#Contact')">Contact Me</button>
+        </div>
+    </section>
+</body>
+</html>
