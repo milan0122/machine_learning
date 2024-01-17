@@ -1,1 +1,1 @@
-This is my personal portfolio where you can find out my pictures, cv and my project as well my mail address.
+this is completely machine_learning playlist where you can get a lot of thing regarding it
